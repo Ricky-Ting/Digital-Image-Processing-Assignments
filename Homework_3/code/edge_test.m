@@ -48,5 +48,12 @@ plot(Bxpc5(:,2), Bxpc5(:,1), 'w', 'LineWidth', 1);
 Bxpc6 = my_edgelinking(img_edge, 176, 398);
 hold on
 plot(Bxpc6(:,2), Bxpc6(:,1), 'w', 'LineWidth', 1);
+Bxpc7 = my_edgelinking(img_edge, 181, 416);
+hold on
+plot(Bxpc7(:,2), Bxpc7(:,1), 'w', 'LineWidth', 1);
+Bxpc8 = my_edgelinking(img_edge, 176, 426);
+hold on
+plot(Bxpc8(:,2), Bxpc8(:,1), 'w', 'LineWidth', 1);
+
 
 
